@@ -118,15 +118,15 @@
       },
       "sw-logo-desktop": {
         "type": "media",
-        "value": "app/storefront/dist/assets/logo/logo.png"
+        "value": "app/storefront/dist/assets/logo/fe-logo.png"
       },
       "sw-logo-tablet": {
         "type": "media",
-        "value": "app/storefront/dist/assets/logo/logo.png"
+        "value": "app/storefront/dist/assets/logo/fe-logo.png"
       },
       "sw-logo-mobile": {
         "type": "media",
-        "value": "app/storefront/dist/assets/logo/logo.png"
+        "value": "app/storefront/dist/assets/logo/fe-logo.png"
       }
     }
   }
