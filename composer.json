@@ -1,0 +1,18 @@
+{
+  "name": "swinde/beesfrischeerlebentheme",
+  "description": "Theme Frische Erleben plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BeesFrischeErlebenTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "BeesFrischeErlebenTheme\\BeesFrischeErlebenTheme",
+    "label": {
+      "de-DE": "Theme BeesFrischeErlebenTheme plugin",
+      "en-GB": "Theme BeesFrischeErlebenTheme plugin"
+    }
+  }
+}
