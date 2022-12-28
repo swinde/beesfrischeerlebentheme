@@ -1,0 +1,16 @@
+/*
+Footer
+==================================================
+Contains custom styles for the footer located at the bottom of the page.
+*/
+
+.footer-main{
+    background-color: $footer-background-color;
+
+    .container{
+        .footer-columns {
+            color: white;
+        }
+
+    }
+}

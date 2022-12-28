@@ -1,0 +1,65 @@
+/*
+Main navigation
+==============================================
+Custom styling for main navigation on larger screens.
+
+Based on bootstrap nav:
+https://getbootstrap.com/docs/4.3/components/navs/
+*/
+$nav-background-color: #b9b9b8;
+$nav-navbar-activ-bg-color: #878787;
+$nav-navbar-color: #333;
+$nav-navbar-color-hover: #fff;
+
+
+@include media-breakpoint-up(md) {
+    .main-navigation {
+        display: inherit;
+        background-color: $nav-background-color;
+        &-menu {
+            font-size: 1.2rem;
+        }
+    }
+    .main-navigation-link {
+        color: $nav-navbar-color;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: $nav-background-color;
+        &.active{
+            background-color: $nav-navbar-activ-bg-color;
+        }
+        &:hover{
+            color: $nav-navbar-color-hover;
+            background-color: $nav-navbar-activ-bg-color;
+        }
+    }
+
+}
+
+@include media-breakpoint-up(lg) {
+    .main-navigation {
+        display: inherit;
+        background-color: $nav-background-color;
+        &-menu {
+            font-size: 1.2rem;
+        }
+
+    }
+    .main-navigation-link {
+        color: $nav-navbar-color;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: $nav-background-color;
+        &.active{
+            background-color: $nav-navbar-activ-bg-color;
+        }
+        &:hover{
+            color: $nav-navbar-color-hover;
+            background-color: $nav-navbar-activ-bg-color;
+        }
+    }
+    .main-navigation-wrapper-dropdown .main-navigation .main-navigation-menu > .main-navigation-link {
+        padding: .33rem .75rem;
+    }
+
+}
