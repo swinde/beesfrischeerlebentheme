@@ -1,6 +1,7 @@
 {
   "name": "BeesFrischeErlebenTheme",
   "author": "Internetservice Steffen Winde",
+
   "views": [
      "@Storefront",
      "@Plugins",
@@ -20,6 +21,7 @@
     "app/storefront/src/assets"
   ],
   "config": {
+
     "fields": {
       "footer-background-color": {
         "label": {
@@ -29,7 +31,26 @@
         "type": "color",
         "value": "#7185a4"
       }
+    },
+    "sw-logo-desktop": {
+      "type": "media",
+      "value": "app/storefront/dist/assets/logo/fe-logo.png"
+    },
+    "sw-logo-tablet": {
+      "type": "media",
+      "value": "app/storefront/dist/assets/logo/fe-logo.png"
+    },
+    "sw-logo-mobile": {
+      "type": "media",
+      "value": "app/storefront/dist/assets/logo/fe-logo.png"
+    },
+    "sw-logo-share": {
+      "type": "media",
+      "value": "app/storefront/dist/assets/logo/fe-logo.png"
+    },
+    "sw-logo-favicon": {
+      "type": "media",
+      "value": "app/storefront/dist/assets/logo/fe-logo.png"
     }
   }
-
 }
